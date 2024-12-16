@@ -1,0 +1,111 @@
+#header{
+    height: 60px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.navbar{
+    margin-top: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar img{
+    position: absolute;
+    width: 140px;
+    top: 3%;
+    left: 10%;
+}
+
+.navbar li{
+    font-size: larger;
+    color: white;
+}
+
+
+@media (max-width: 1200px) {
+    .navbar {
+        width: 70%;
+    }
+}
+
+@media (max-width: 992px) {
+    #header {
+        justify-content: center; /* Center content on smaller screens */
+    }
+
+    .navbar {
+        margin-top: 60px; /* Adjust margin for smaller screens */
+        width: 80%;
+    }
+
+    .navbar img {
+        width: 100px; /* Smaller logo on medium screens */
+        top: 5%;
+        left: 5%;
+    }
+
+    .navbar li {
+        font-size: medium; /* Smaller font size on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    #header {
+        height: 50px; /* Smaller header on small screens */
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack items vertically */
+        width: 90%; /* Wider navbar */
+        margin-top: 30px; /* Adjust margin */
+    }
+
+    .navbar img {
+        width: 80px; /* Even smaller logo on small screens */
+        top: 2%;
+        left: 50%; /* Centered logo */
+        transform: translateX(-50%); /* Center logo horizontally */
+    }
+
+    .navbar li {
+        font-size: small; /* Smaller font size on small screens */
+    }
+}
+
+@media (max-width: 576px) {
+    #header {
+        height: 80px; /* Even smaller header on extra small screens */
+    }
+
+    .navbar {
+        width: 100%; /* Full width navbar */
+        margin-top: 100px; /* Reduced margin */
+    }
+
+    .navbar img {
+        height: 100px;
+        width: 100px; /* Smallest logo on extra small screens */
+        top: 2%;
+        
+        
+    }
+
+    .navbar li {
+        
+        margin-bottom: 10px;
+        font-size: larger; /* Consistent smaller font size */
+    }
+}
+
+
