@@ -1,0 +1,36 @@
+.about{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+    /* gap: 100px; */
+}
+
+.about-text{
+   
+    width: 690px;
+    padding: 80px 10px;
+    text-align: center;
+}
+
+.about-text h1::after {
+    content: '';
+    width: 80px;
+    background-color: orange;
+    height: 5px;
+    display: block;
+    margin: 7px auto 0;
+    border-radius: 8px;
+}
+
+.about-text h1{
+    margin-bottom: 120px;
+}
+
+.about-text p{
+    letter-spacing: 2px;
+    /* width: 650px; */
+    font-size: larger;
+    font-weight: 500;
+}
+

@@ -1,0 +1,43 @@
+
+.why{
+    padding: 100px 80px;
+    background-color: rgb(208, 203, 203);
+    text-align: center;
+}
+
+
+.why h1::after{
+    content: '';
+    width: 80px;
+    background-color: orange;
+    height: 5px;
+    display: block;
+    margin: 7px auto 0;
+    border-radius: 8px;
+   
+}
+
+.why-flex{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.why-text{
+    text-align: center;
+}
+
+.why-text p{
+    /* background-color: aqua; */
+    width: 300px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.why img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
